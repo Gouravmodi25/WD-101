@@ -44,20 +44,28 @@ button:hover {
   color: #a8bfcf;
 }
 .table-container {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   padding-inline: 100px;
-  background-color: #252e3e;
+  /* background-color: #252e3e; */
 }
 table {
-  max-width: 600px;
+  border: 1px solid #fff;
+  padding-top: 10px;
 }
 table th {
+  border: 1px solid #fff;
+
+  padding-block: 10px;
   padding-inline: 30px;
 }
 
 tr td {
+  border: 1px solid #fff;
+
+  padding-block: 10px;
   padding-inline: 30px;
 }
